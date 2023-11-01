@@ -9,7 +9,10 @@ html {
 }
 
 body {
+  margin: 0px;
   height: 100%;
+  max-width: 1600px;
+  max-height: 900px;
   position: relative;
   min-width: 800px;
   display: grid;
@@ -91,14 +94,15 @@ video {
   height: fit-content;
   display:block;
   z-index: 1;
-
 }
+
 .page__heading::after {
 content: "*"
 }
 
 .title_word {
-  display: block;}
+  display: block;
+}
 
 
 
