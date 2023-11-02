@@ -43,6 +43,7 @@ body::before {
   position: absolute;
   top: 182px;
   right: 22px;
+  left: auto;
   box-shadow: 0px 14px 0px #000;
 
   display: block;
@@ -90,10 +91,12 @@ video {
   height: fit-content;
   display: block;
   z-index: 1;
+  /* max-width: 740px; */
 }
 
 .page__heading::after {
   content: "*"
+  
 }
 
 .title_word {
