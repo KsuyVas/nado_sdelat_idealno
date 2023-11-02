@@ -2,7 +2,11 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+
 
 html {
   height: 100%;
@@ -10,9 +14,10 @@ html {
 
 body {
   margin: 0px;
+  padding: 0px;
   height: 100%;
-  max-width: 1600px;
-  max-height: 900px;
+  max-width: 1600px;  /* надо ли*/
+  max-height: 900px; /* надо ли*/ 
   position: relative;
   min-width: 800px;
   display: grid;
@@ -36,6 +41,7 @@ white-space: pre;
 position: absolute;
 top: 182px;
 right: 22px;
+box-shadow: 0px 14px 0px #000;
 
 display: block;
 background-color: #FFF;
@@ -62,6 +68,9 @@ font-weight: 400;
 line-height: 35px; 100% */
 }
 
+
+
+
 .page__heading:hover {
   color: #4C4C4C;
 }
@@ -81,6 +90,9 @@ video {
 } 
 
 .page__heading {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
   color: #000;
   text-align: center;
   font-family: Raleway;
