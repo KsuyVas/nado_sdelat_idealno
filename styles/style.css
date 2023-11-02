@@ -1,9 +1,9 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -16,8 +16,10 @@ body {
   margin: 0px;
   padding: 0px;
   height: 100%;
-  max-width: 1600px;  /* надо ли*/
-  max-height: 900px; /* надо ли*/ 
+  max-width: 1600px;
+  /* надо ли*/
+  max-height: 900px;
+  /* надо ли*/
   position: relative;
   min-width: 800px;
   display: grid;
@@ -26,59 +28,41 @@ body {
 }
 
 body::before {
- 
+
   content: '';
   position: absolute;
   inset: 0;
-  background-color:  rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   z-index: 0;
 }
 
 .page__heading:hover::before {
   /* правила для тултипа */
   content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
-white-space: pre;
-position: absolute;
-top: 182px;
-right: 22px;
-box-shadow: 0px 14px 0px #000;
+  white-space: pre;
+  position: absolute;
+  top: 182px;
+  right: 22px;
+  box-shadow: 0px 14px 0px #000;
 
-display: block;
-background-color: #FFF;
-border-radius: 20px;
-border: 2px solid #000;
-padding: 36px 44px;
+  display: block;
+  background-color: #FFF;
+  border-radius: 20px;
+  border: 2px solid #000;
+  padding: 36px 44px;
 
-color: #000;
-font-family: Raleway;
-font-size: 35px;
-font-style: normal;
-font-weight: 400;
-line-height: 35px;
-
-
-/* border-radius: 20px;
-border: 2px solid #000;
-background: #FFF;
-color: #000;
-font-family: Raleway;
-font-size: 35px;
-font-style: normal;
-font-weight: 400;
-line-height: 35px; 100% */
+  color: #000;
+  font-family: Raleway;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;  /* 100% */
+  text-transform: none;
 }
-
-
-
 
 .page__heading:hover {
   color: #4C4C4C;
 }
-
-
-
-
- 
 
 video {
   width: 100%;
@@ -87,7 +71,7 @@ video {
   object-position: center;
   position: absolute;
   z-index: -1;
-} 
+}
 
 .page__heading {
   margin-top: 60px;
@@ -102,23 +86,16 @@ video {
   line-height: normal;
   letter-spacing: 4.06px;
   text-transform: uppercase;
-  width:fit-content;
+  width: fit-content;
   height: fit-content;
-  display:block;
+  display: block;
   z-index: 1;
 }
 
 .page__heading::after {
-content: "*"
+  content: "*"
 }
 
 .title_word {
   display: block;
 }
-
-
-
-
-
-  
-
