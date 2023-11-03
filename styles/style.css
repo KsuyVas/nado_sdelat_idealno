@@ -6,8 +6,6 @@
   padding: 0;
 }
 
-
-
 html {
   height: 100%;
 }
@@ -28,7 +26,6 @@ body {
 }
 
 body::before {
-
   content: '';
   position: absolute;
   inset: 0;
@@ -64,40 +61,39 @@ video {
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
-  line-height: 35px;  /* 100% */
+  line-height: 35px;
+  /* 100% */
   text-transform: none;
   text-align: left;
   max-width: 742px;
-  letter-spacing:normal;
+  letter-spacing: normal;
 }
-
 
 .page__heading {
   margin-top: 60px;
   color: #000;
-text-align: center;
-font-family: Raleway;
-font-size: 116px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-letter-spacing: 4.06px;
-text-transform: uppercase;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 116px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 4.06px;
+  text-transform: uppercase;
   display: inline-block;
   z-index: 1;
   max-width: 740px;
   max-height: 410px;
 }
 
-
 .title_star::after {
-  content: "*";}
+  content: "*";
+}
 
 .title_word {
   display: inline-block;
- }
+}
 
 .page__heading:hover {
   color: #4C4C4C;
 }
-
