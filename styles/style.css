@@ -82,10 +82,10 @@ video {
   max-width: 740px;
   padding: 0;
   margin-right: 0;
-  margin-left: 0; 
- }
+  margin-left: 0;
+}
 
-.page__heading::after{
+.page__heading::after {
   content: "*";
 }
 
