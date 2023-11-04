@@ -11,11 +11,11 @@ html {
 }
 
 body {
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
   height: 100%;
   max-width: 1600px;
-  max-height: 900px;
   position: relative;
   min-width: 800px;
   display: grid;
@@ -36,6 +36,8 @@ video {
   object-fit: cover;
   object-position: center;
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: -1;
 }
 
@@ -47,14 +49,14 @@ video {
   top: 182px;
   right: 22px;
   left: auto;
-  box-shadow: 0 14px 0 #000;
+  box-shadow: 0 14px 0 currentColor;
   display: block;
   background-color: #FFF;
   border-radius: 20px;
-  border: 2px solid #000;
+  border: 2px solid currentColor;
   padding: 36px 44px;
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 35px;
   font-style: normal;
   font-weight: 400;
@@ -69,7 +71,7 @@ video {
   margin-top: 60px;
   color: #000;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 116px;
   font-style: normal;
   font-weight: 800;
@@ -78,13 +80,16 @@ video {
   text-transform: uppercase;
   z-index: 1;
   max-width: 740px;
-  max-height: 410px;
-}
+  padding: 0;
+  margin-right: 0;
+  margin-left: 0; 
+ }
 
-.title_star::after {
+.page__heading::after{
   content: "*";
 }
 
 .page__heading:hover {
   color: #4C4C4C;
+  cursor: default;
 }
